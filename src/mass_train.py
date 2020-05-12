@@ -74,7 +74,7 @@ def par_train(X_train,X_test,model,filename):
 
     par_model.compile(optimizer=optimizers.Adam(), loss='mse', metrics=["mae"])
 
-    csv_cb = keras.callbacks.CSVLogger(filename+'.csv')
+    csv_cb = keras.callbacks.CSVLogger('../logs/'+filename+'.csv')
 
     par_model.fit(X_train,
               X_train,
