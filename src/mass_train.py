@@ -88,7 +88,7 @@ def par_train(X_train,X_test,model,filename):
     par_model.save(filename+'.hd5')
 
 def print_summary(model, filename):
-    with open(filename + '_report.txt','w') as fh:
+    with open('../descriptions/'+filename + '_report.txt','w') as fh:
         # Pass the file handle in as a lambda function to make it callable
         model.summary(print_fn=lambda x: fh.write(x + '\n'))
 
