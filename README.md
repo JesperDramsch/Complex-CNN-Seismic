@@ -5,7 +5,7 @@ This repository reproduces "Complex-valued neural networks for machine learning 
 Obtained from https://github.com/olivesgatech/facies_classification_benchmark via
 ```
 # download the files: 
-wget https://www.dropbox.com/s/p6cbgbocxwj04sw/data.zip
+wget https://zenodo.org/record/3755060/files/data.zip
 # check that the md5 checksum matches: 
 openssl dgst -md5 data.zip # Make sure the result looks like this: MD5(data.zip)= bc5932279831a95c0b244fd765376d85, otherwise the downloaded data.zip is corrupted. 
 ```
