@@ -20,3 +20,16 @@ Use trained models to generate predictions `src/save_predictions.py`.
 
 ## Analysis
 Numerical and qualitative analysis generated via `src/explore.py`.
+
+## Citation
+Please cite the according paper as
+```
+@article{dramsch2020complex,
+  title={Complex-valued neural networks for machine learning on non-stationary physical data},
+  author={Dramsch, Jesper S{\"o}ren and L{\"u}thje, Mikael and Christensen, Anders Nymark},
+  journal={Computers \& Geosciences},
+  pages={104643},
+  year={2020},
+  publisher={Elsevier}
+}
+```
