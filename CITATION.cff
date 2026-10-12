@@ -1,0 +1,43 @@
+cff-version: '1.2.0'
+message: 'Please cite the following works when using this software.'
+abstract: 'Code to prepare the data, train the networks, generate the predictions and reproduce the analysis in the paper "Complex-valued neural networks for machine learning on non-stationary physical data".'
+authors:
+- family-names: 'Dramsch'
+  given-names: 'Jesper Sören'
+  orcid: 'https://orcid.org/0000-0001-8273-905X'
+title: 'Complex-CNN-Seismic'
+repository-code: 'https://github.com/JesperDramsch/Complex-CNN-Seismic'
+license: 'Apache-2.0'
+type: 'software'
+preferred-citation:
+  type: 'article'
+  authors:
+  - family-names: 'Dramsch'
+    given-names: 'Jesper Sören'
+    orcid: 'https://orcid.org/0000-0001-8273-905X'
+  - family-names: 'Lüthje'
+    given-names: 'Mikael'
+    orcid: 'https://orcid.org/0000-0003-2715-1653'
+  - family-names: 'Christensen'
+    given-names: 'Anders Nymark'
+    orcid: 'https://orcid.org/0000-0002-3668-3128'
+  title: 'Complex-valued neural networks for machine learning on non-stationary physical data'
+  journal: 'Computers & Geosciences'
+  volume: 146
+  start: 104643
+  year: 2021
+  month: 1
+  publisher:
+    name: 'Elsevier BV'
+  issn: '0098-3004'
+  doi: '10.1016/j.cageo.2020.104643'
+  url: 'https://www.sciencedirect.com/science/article/pii/S0098300420306208'
+  identifiers:
+    - type: 'doi'
+      value: '10.1016/j.cageo.2020.104643'
+      description: 'Journal article in Computers & Geosciences'
+    - type: 'doi'
+      value: '10.48550/arxiv.1905.12321'
+      description: 'Preprint on arXiv'
+    - type: 'url'
+      value: 'https://www.sciencedirect.com/science/article/pii/S0098300420306208'
